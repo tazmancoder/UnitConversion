@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		6607DBA8282BF9BD0000DC01 /* UnitConversionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBA7282BF9BD0000DC01 /* UnitConversionApp.swift */; };
-		6607DBAA282BF9BD0000DC01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBA9282BF9BD0000DC01 /* ContentView.swift */; };
 		6607DBAC282BF9BE0000DC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6607DBAB282BF9BE0000DC01 /* Assets.xcassets */; };
 		6607DBAF282BF9BE0000DC01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6607DBAE282BF9BE0000DC01 /* Preview Assets.xcassets */; };
+		6607DBB6282BF9DC0000DC01 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBB5282BF9DC0000DC01 /* AppTabView.swift */; };
+		6607DBB8282BFA3F0000DC01 /* TemperatureConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBB7282BFA3F0000DC01 /* TemperatureConversionView.swift */; };
+		6607DBBA282BFADF0000DC01 /* LengthConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBB9282BFADE0000DC01 /* LengthConversionView.swift */; };
+		6607DBBC282BFAEF0000DC01 /* TimeConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBBB282BFAEF0000DC01 /* TimeConversionView.swift */; };
+		6607DBBE282BFAFF0000DC01 /* VolumeConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBBD282BFAFF0000DC01 /* VolumeConversionView.swift */; };
+		6607DBC1282BFDC20000DC01 /* AppWide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBC0282BFDC20000DC01 /* AppWide.swift */; };
+		6607DBC4282BFE3D0000DC01 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6607DBC3282BFE3D0000DC01 /* Color+Ext.swift */; };
+		6607DBC6282BFE7F0000DC01 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6607DBC5282BFE7F0000DC01 /* Colors.xcassets */; };
+		663D1D65282D4CA200190119 /* UIColor+Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D1D64282D4CA200190119 /* UIColor+Temperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6607DBA4282BF9BD0000DC01 /* UnitConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6607DBA7282BF9BD0000DC01 /* UnitConversionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionApp.swift; sourceTree = "<group>"; };
-		6607DBA9282BF9BD0000DC01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6607DBAB282BF9BE0000DC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6607DBAE282BF9BE0000DC01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6607DBB5282BF9DC0000DC01 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		6607DBB7282BFA3F0000DC01 /* TemperatureConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConversionView.swift; sourceTree = "<group>"; };
+		6607DBB9282BFADE0000DC01 /* LengthConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthConversionView.swift; sourceTree = "<group>"; };
+		6607DBBB282BFAEF0000DC01 /* TimeConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConversionView.swift; sourceTree = "<group>"; };
+		6607DBBD282BFAFF0000DC01 /* VolumeConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeConversionView.swift; sourceTree = "<group>"; };
+		6607DBC0282BFDC20000DC01 /* AppWide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWide.swift; sourceTree = "<group>"; };
+		6607DBC3282BFE3D0000DC01 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		6607DBC5282BFE7F0000DC01 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		663D1D64282D4CA200190119 /* UIColor+Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Temperature.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				6607DBA7282BF9BD0000DC01 /* UnitConversionApp.swift */,
-				6607DBA9282BF9BD0000DC01 /* ContentView.swift */,
+				6607DBB5282BF9DC0000DC01 /* AppTabView.swift */,
+				6607DBB7282BFA3F0000DC01 /* TemperatureConversionView.swift */,
+				6607DBB9282BFADE0000DC01 /* LengthConversionView.swift */,
+				6607DBBB282BFAEF0000DC01 /* TimeConversionView.swift */,
+				6607DBBD282BFAFF0000DC01 /* VolumeConversionView.swift */,
+				6607DBC2282BFE220000DC01 /* Extensions */,
+				6607DBBF282BFDB20000DC01 /* Enums */,
 				6607DBAB282BF9BE0000DC01 /* Assets.xcassets */,
+				6607DBC5282BFE7F0000DC01 /* Colors.xcassets */,
 				6607DBAD282BF9BE0000DC01 /* Preview Content */,
 			);
 			path = UnitConversion;
@@ -65,6 +88,23 @@
 				6607DBAE282BF9BE0000DC01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6607DBBF282BFDB20000DC01 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				6607DBC0282BFDC20000DC01 /* AppWide.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		6607DBC2282BFE220000DC01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6607DBC3282BFE3D0000DC01 /* Color+Ext.swift */,
+				663D1D64282D4CA200190119 /* UIColor+Temperature.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6607DBC6282BFE7F0000DC01 /* Colors.xcassets in Resources */,
 				6607DBAF282BF9BE0000DC01 /* Preview Assets.xcassets in Resources */,
 				6607DBAC282BF9BE0000DC01 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6607DBAA282BF9BD0000DC01 /* ContentView.swift in Sources */,
+				6607DBBE282BFAFF0000DC01 /* VolumeConversionView.swift in Sources */,
+				6607DBBA282BFADF0000DC01 /* LengthConversionView.swift in Sources */,
+				6607DBB6282BF9DC0000DC01 /* AppTabView.swift in Sources */,
+				6607DBB8282BFA3F0000DC01 /* TemperatureConversionView.swift in Sources */,
+				6607DBC1282BFDC20000DC01 /* AppWide.swift in Sources */,
+				6607DBC4282BFE3D0000DC01 /* Color+Ext.swift in Sources */,
+				663D1D65282D4CA200190119 /* UIColor+Temperature.swift in Sources */,
+				6607DBBC282BFAEF0000DC01 /* TimeConversionView.swift in Sources */,
 				6607DBA8282BF9BD0000DC01 /* UnitConversionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
